@@ -30,7 +30,7 @@ body {
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     height: 35%;
@@ -81,7 +81,7 @@ body {
 }
 
 .title-wrapper {
-    position: absolute;
+    position: fixed;
     top: 37.5%;
     left: 120px;
     z-index: 1000;
@@ -164,11 +164,20 @@ body {
     font-size: 1.4em;
 }
 
+.title-wrapper .percentage {
+    position: fixed;
+    left: 24%;
+    top: 77%;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Economica', sans-serif;
+    font-size: 1.2em;
+}
+
 .licence .copyright,
 .licence .designed {
     color: rgba(255, 255, 255, 0.5);
     font-family: 'Economica', sans-serif;
-    font-size: 1.0em;
+    font-size: 0.9em;
     text-align: left;
     line-height: 120%;
 }
@@ -278,7 +287,7 @@ body {
 
 .overlay {
     width: 60%;
-    position: absolute;
+    position: fixed;
     left: -60%;
     z-index: 1;
     height: 100%;
